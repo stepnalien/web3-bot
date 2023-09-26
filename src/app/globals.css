@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  height: 20vh;
+}
